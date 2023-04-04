@@ -10,6 +10,14 @@
   {{-- Includiamo gli assets con la direttiva @vite --}}
   @vite('resources/js/app.js')
 </head>
+<style>
+  .jumbotron {
+    min-height: 100vh;
+  }
+  img {
+    max-height: 150px;
+  }
+</style>
 
 <body>
   <main>
